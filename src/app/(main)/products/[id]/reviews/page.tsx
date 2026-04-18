@@ -9,7 +9,10 @@ import { RatingFilter } from '@/components/review/RatingFilter'
 import { Button } from '@/components/ui/button'
 import { useInView } from 'react-intersection-observer'
 import { useEffect } from 'react'
- 
+
+// dony : saya menambahkan bagian ini
+import ReviewForm from '@/components/review/ReviewForm'
+
 export default function ReviewsPage() {
   const { id: productId } = useParams<{ id: string }>()
   const [ratingFilter, setRatingFilter] = useState<number[]>([])
@@ -52,6 +55,9 @@ export default function ReviewsPage() {
  
       {/* Summary + Fit Scale */}
       {summary && <ReviewSummary summary={summary} />}
+
+      {/* dony : saya menambahkan bagian ini ReviewForm */}
+      <ReviewForm productId={productId} />
  
       {/* Filter & Sort bar */}
       <div className='flex flex-wrap gap-3 items-center'>

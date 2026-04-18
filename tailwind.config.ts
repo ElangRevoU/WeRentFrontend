@@ -5,8 +5,10 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        background: "oklch(var(--background))",
+        foreground: "oklch(var(--foreground))",
+        border: "oklch(var(--border))",
+        ring: "oklch(var(--ring))",
       },
     },
   },
