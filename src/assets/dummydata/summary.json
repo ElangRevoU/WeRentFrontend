@@ -1,0 +1,50 @@
+[
+  {
+    "avgRating": 4.7,
+    "distribution": {
+      "1": 2,
+      "2": 3,
+      "3": 8,
+      "4": 28,
+      "5": 87
+    },
+    "fitScale": {
+      "small": 14,
+      "true": 98,
+      "large": 16
+    },
+    "total": 128
+  },
+  {
+    "avgRating": 4.3,
+    "distribution": {
+      "1": 4,
+      "2": 6,
+      "3": 15,
+      "4": 32,
+      "5": 38
+    },
+    "fitScale": {
+      "small": 61,
+      "true": 27,
+      "large": 7
+    },
+    "total": 95
+  },
+  {
+    "avgRating": 0,
+    "distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "fitScale": {
+      "small": 0,
+      "true": 0,
+      "large": 0
+    },
+    "total": 0
+  }
+]

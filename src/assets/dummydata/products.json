@@ -1,0 +1,47 @@
+[
+  {
+    "id": "prod_001",
+    "name": "Classic Linen Blazer",
+    "description": "A timeless linen blazer perfect for summer events and formal occasions. Lightweight, breathable, and effortlessly stylish.",
+    "pricePerDay": 45000,
+    "category": "Outerwear",
+    "images": [
+      "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=800",
+      "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "avgRating": 4.7,
+    "totalReviews": 3,
+    "fitScale": "true_to_size"
+  },
+  {
+    "id": "prod_002",
+    "name": "Floral Wrap Midi Dress",
+    "description": "An elegant floral wrap dress with a flattering silhouette, ideal for garden parties, brunches, and semi-formal gatherings.",
+    "pricePerDay": 38000,
+    "category": "Dresses",
+    "images": [
+      "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=800",
+      "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=800"
+    ],
+    "sizes": ["XS", "S", "M", "L"],
+    "avgRating": 4.3,
+    "totalReviews": 2,
+    "fitScale": "runs_small"
+  },
+  {
+    "id": "prod_003",
+    "name": "Structured Wool Overcoat",
+    "description": "A sharp, double-breasted wool overcoat with a tailored fit. Perfect for formal dinners, weddings, and cold-weather events.",
+    "pricePerDay": 55000,
+    "category": "Outerwear",
+    "images": [
+      "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=800",
+      "https://images.unsplash.com/photo-1520975954732-35dd22299614?w=800"
+    ],
+    "sizes": ["M", "L", "XL", "XXL"],
+    "avgRating": 0,
+    "totalReviews": 0,
+    "fitScale": "runs_large"
+  }
+]

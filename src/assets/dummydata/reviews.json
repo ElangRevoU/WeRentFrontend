@@ -1,0 +1,106 @@
+[
+  {
+    "id": "rev_001",
+    "productId": "prod_001",
+    "userId": "user_001",
+    "user": {
+      "id": "user_001",
+      "name": "Alya Pratama",
+      "avatarUrl": "https://randomuser.me/api/portraits/women/1.jpg"
+    },
+    "rating": 5,
+    "comment": "Super lightweight and perfect for outdoor events. Looks very classy!",
+    "fit": "true",
+    "measurements": { "bust": 86, "waist": 68, "hips": 92 },
+    "mediaUrls": [
+      "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=800"
+    ],
+    "helpfulCount": 4,
+    "isHelpful": true,
+    "isEdited": false,
+    "createdAt": "2026-04-10T08:30:00Z",
+    "updatedAt": "2026-04-10T08:30:00Z"
+  },
+  {
+    "id": "rev_002",
+    "productId": "prod_001",
+    "userId": "user_002",
+    "user": {
+      "id": "user_002",
+      "name": "Rizky Santoso",
+      "avatarUrl": "https://randomuser.me/api/portraits/men/2.jpg"
+    },
+    "rating": 4,
+    "comment": "Great quality but slightly loose on the shoulders.",
+    "fit": "large",
+    "measurements": { "bust": 98, "waist": 82, "hips": 100 },
+    "mediaUrls": [],
+    "helpfulCount": 2,
+    "isHelpful": false,
+    "isEdited": true,
+    "createdAt": "2026-04-11T10:15:00Z",
+    "updatedAt": "2026-04-12T09:00:00Z"
+  },
+  {
+    "id": "rev_003",
+    "productId": "prod_001",
+    "userId": "user_003",
+    "user": {
+      "id": "user_003",
+      "name": "Dewi Lestari",
+      "avatarUrl": null
+    },
+    "rating": 5,
+    "comment": "Fits perfectly and feels breathable even in hot weather.",
+    "fit": "true",
+    "measurements": { "bust": 90, "waist": 72, "hips": 95 },
+    "mediaUrls": [],
+    "helpfulCount": 1,
+    "isHelpful": true,
+    "isEdited": false,
+    "createdAt": "2026-04-12T14:20:00Z",
+    "updatedAt": "2026-04-12T14:20:00Z"
+  },
+  {
+    "id": "rev_004",
+    "productId": "prod_002",
+    "userId": "user_004",
+    "user": {
+      "id": "user_004",
+      "name": "Siti Rahma",
+      "avatarUrl": "https://randomuser.me/api/portraits/women/4.jpg"
+    },
+    "rating": 4,
+    "comment": "Beautiful dress, but runs a bit small around the waist.",
+    "fit": "small",
+    "measurements": { "bust": 84, "waist": 66, "hips": 90 },
+    "mediaUrls": [
+      "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=800"
+    ],
+    "helpfulCount": 3,
+    "isHelpful": false,
+    "isEdited": false,
+    "createdAt": "2026-04-13T11:45:00Z",
+    "updatedAt": "2026-04-13T11:45:00Z"
+  },
+  {
+    "id": "rev_005",
+    "productId": "prod_002",
+    "userId": "user_005",
+    "user": {
+      "id": "user_005",
+      "name": "Nadia Putri",
+      "avatarUrl": "https://randomuser.me/api/portraits/women/5.jpg"
+    },
+    "rating": 3,
+    "comment": "Nice design but sizing is tricky, size up recommended.",
+    "fit": "small",
+    "measurements": { "bust": 88, "waist": 70, "hips": 94 },
+    "mediaUrls": [],
+    "helpfulCount": 0,
+    "isHelpful": false,
+    "isEdited": false,
+    "createdAt": "2026-04-14T09:10:00Z",
+    "updatedAt": "2026-04-14T09:10:00Z"
+  }
+]
