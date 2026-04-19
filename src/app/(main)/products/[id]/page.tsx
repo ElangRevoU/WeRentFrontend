@@ -15,9 +15,6 @@ import { Button } from "@/components/ui/button";
 import { useToast } from "@/hooks/use-toast";
 import { useAuthStore } from "@/lib/stores/authStore";
 
-import dummydata from "@/assets/dummydata/products.json";
-import dummysummary from "@/assets/dummydata/summary.json";
-
 export default function ProductDetailPage() {
   const { id } = useParams<{ id: string }>();
   const router = useRouter();
@@ -28,13 +25,9 @@ export default function ProductDetailPage() {
   const [startDate, setStartDate] = useState(format(new Date(), "yyyy-MM-dd"));
   const [rentalDays, setRentalDays] = useState(3);
 
-  // const { data: product, isLoading } = useProductDetail(id);
-  // const { data: summary } = useReviewSummary(id);
+  const { data: product, isLoading } = useProductDetail(id);
+  const { data: summary } = useReviewSummary(id);
   const { data: wishlist } = useWishlist();
-
-  const product = dummydata.find((p) => p.id === id);
-  const isLoading = !product;
-  const summary = dummysummary[parseInt(id.split("_")[1], 10) - 1];
 
   // Availability check — enabled only when size is selected
   const availabilityEnabled = !!selectedSize && !!startDate;
@@ -50,10 +43,10 @@ export default function ProductDetailPage() {
   const inWishlist = wishlist?.some((w) => w.product.id === id) ?? false;
 
   const handleAddToCart = () => {
-    // if (!isAuthenticated) {
-    //   router.push("/login");
-    //   return;
-    // }
+    if (!isAuthenticated) {
+      router.push("/login");
+      return;
+    }
     if (!selectedSize) {
       toast({ title: "Select a size first", variant: "destructive" });
       return;
