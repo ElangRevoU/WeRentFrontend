@@ -31,6 +31,7 @@ export default function ReviewForm({
     const [loading, setLoading] = useState(false)
 
     const handleSubmit = async () => {
+        if (!rating) return alert('Rating tidak boleh kosong')
         if (!comment) return alert('Comment tidak boleh kosong')
 
         setLoading(true)
