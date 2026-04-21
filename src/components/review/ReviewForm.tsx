@@ -24,7 +24,7 @@ export default function ReviewForm({
         fit: FitType
     }) => void
 }) {
-    const [rating, setRating] = useState(5)
+    const [rating, setRating] = useState(0)
     const [hover, setHover] = useState(0)
     const [comment, setComment] = useState('')
     const [fit, setFit] = useState<FitType>('true')
@@ -58,7 +58,7 @@ export default function ReviewForm({
             }
 
             // untuk reset form
-            setRating(5)
+            setRating(0)
             setComment('')
             setFit('true')
         } catch (err) {
@@ -96,7 +96,7 @@ export default function ReviewForm({
 
             {/* untuk fit atau size */}
             <div>
-                <p className="text-sm mb-1">Pilih Ukuran Mu</p>
+                <p className="text-sm mb-1">Pilih Ukuranmu</p>
                 <div className="flex gap-2">
                 {[
                     { label: 'Kecil', value: 'small' },
@@ -120,7 +120,7 @@ export default function ReviewForm({
 
             {/* untuk komentar */}
             <div>
-                <p className="text-sm mb-1">Tulis Komentar Mu Disini :</p>
+                <p className="text-sm mb-1">Tulis Komentarmu Disini :</p>
                 <textarea
                     value={comment}
                     onChange={(e) => setComment(e.target.value)}
