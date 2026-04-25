@@ -15,7 +15,14 @@ WeRent is a fashion rental platform that allows users to browse, rent, and revie
 
 ## Screenshots
 
+1. Review Page with Fit Scale & Filters
+![Fit Scale Chart](<Screenshot 2026-04-24 184333.png>)
 
+2. Product Detail & Availability Check
+![Availability Check](<Screenshot 2026-04-24 184015.png>)
+
+3. Order Detail & Inline Review Form
+![Product Review Form](<Screenshot 2026-04-24 183455.png>)
 
 ---
 
